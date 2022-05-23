@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display:ital@1&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Orelega+One&family=Playfair+Display:ital@1&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap');
+/*navbar  */
+
+body{
+  font-family: 'Orelega One', cursive;
+}
+/* h1{
+  font-family: 'Rubik Moonrocks', cursive;
+} */
+.hamburger{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#menu-item{
+    font-size: 20px;
+    
+}
+#menu-item:hover{
+  background-color: rgb(107, 170, 223);
+}
+#navbarDropdown{
+  font-size: 20px;
+  
+}
+#navbarDropdown:hover{
+  background-color: rgb(107, 170, 223);
+}
+.hamburger .line{
+  display: block;
+  width:20px;
+  height: 0.5px;
+  background-color: #ecf0f1;
+  margin-block: 10px;
+  border-radius: 4px;
+  transition: transform .5s;
+  opacity: .25s;
+}
+.hamburger.active .line:nth-child(1){
+  transform: translateY(13px)
+  rotate(45deg);
+}
+.hamburger.active .line:nth-child(2){
+  opacity: 0;  
+  }
+  .hamburger.active .line:nth-child(3){
+    transform: translateY(-13px)
+    rotate(-45deg);
+  }
+  #logo{
+    width:100px;
+    height: 70px;
+  }
+  #menu{
+    word-spacing: 30px;
+  }
+  #img3{
+    width: 100%;
+    height: 93vh;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+  }
+  /* .navbar{
+    width: 100%;
+     height: 10vh;
+  } */
+  .header{
+    background-image: url("./Components/Images/bg.jpg");
+    width: 100%;
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+      
+      
+  }
+  #bg{
+    background-image: url("./Components/Images/pickbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  #cart{
+      /* border-radius: 50px; */
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.598); 
+      
+     }
+     #rental-btn:hover{
+       transform: scale(1.5);  
+         }
+         
+
+     /* visit uk */
+     #card{
+       width: 100%;
+       height: 100%;
+     }
+     /* ukbeautifull.js */
+     #uk{
+       width:100%;
+       height: 100%;
+     }
+     #video{
+       width: 100%;
+       height: 100%;
+     }
+     #cartbg{
+       background-color: rgb(236, 245, 253);
+     }
+     #vallery{
+       width: 100%;
+       height: 100%;
+     }
+     /* #booter{
+       background-image: url("./Components/Images/uk.jpg");
+       background-repeat: no-repeat;
+       width: 100%;
+       height: 13vh;
+       background-position: center;
+     } */
+     #team-img{
+       width: 80%;
+       height: 26vh;
+       background-position: center;
+       background-repeat: no-repeat;
+       /* box-shadow: 5px 5px 5px 5px rgba(37, 36, 36, 0.441); */
+       border-radius: 50rem;
+      }
+      #footer{
+        background-color: black;
+      }
+      /* #bikebg{
+        background-image: url("./Components/Images/bikebanner.webp");
+        width: 100%;
+        height: 93vh;
+        background-position: center;
+        background-repeat: no-repeat;
+      } */
+      #bike-img{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #contact-email{
+        width: 100%;
+        height: 100%;
+      }
+      #video{
+        width: 100%;
+        height: 100%;
+      }

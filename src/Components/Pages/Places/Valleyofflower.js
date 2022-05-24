@@ -9,7 +9,7 @@ import { useLocation } from "react-router-dom"
 
 const Valleyofflower = () => {
   const location = useLocation()
-  console.log(location)
+  console.log(location.state)
   const {data} = location.state
 
   return (
@@ -25,13 +25,13 @@ const Valleyofflower = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={img1} class="d-block w-100" alt="..."/>
+      <img src={data[0].extra1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={img2} class="d-block w-100" alt="..."/>
+      <img src={data[0].extra2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={img3} class="d-block w-100" alt="..."/>
+      <img src={data[0].extra3} class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

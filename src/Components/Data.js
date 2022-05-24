@@ -13,10 +13,10 @@ import img10 from "./Img/haridwar2.jpg"
 import img11 from "./Img/haridwar3.jpg"
 import img12 from "./Img/haridwar4.jpg"
 
-import img13 from "./Img/pithoragarh1.jpg"
-import img14 from "./Img/pithoragarh2.jpg"
-import img15 from "./Img/pithoragarh3.jpg"
-import img16 from "./Img/pithoragarh4.jpg"
+import img13 from "./Img/pithoragrah1.jpg"
+import img14 from "./Img/pithoragrah2.jpg"
+import img15 from "./Img/pithoragrah3.jpg"
+import img16 from "./Img/pithoragrah4.jpg"
 
 
 
@@ -27,6 +27,9 @@ export const Data=[
     {
         id:1,
         img:img1,
+        extra1:img2, 
+        extra2:img3, 
+        extra3:img4, 
         title:"Almora",
         exprence:"adventure",
         info:"With salubrious hill-stations, sacred temples, ancient monuments and numerous adventure options, Uttarakhand has a diverse range of offerings for tourists. But to make the choice a little easy, here are a few suggestive itineraries you can refer to for an unforgettable experience. You can contact travel operators and tour guides for a personalised plan. "
@@ -34,6 +37,9 @@ export const Data=[
     {
         id:2,
         img:img2,
+        extra1:img1, 
+        extra2:img3, 
+        extra3:img4, 
         title:"Almora",
         exprence:"culture",
         info:"With salubrious hill-stations, sacred temples, ancient monuments and numerous adventure options, Uttarakhand has a diverse range of offerings for tourists. But to make the choice a little easy, here are a few suggestive itineraries you can refer to for an unforgettable experience. You can contact travel operators and tour guides for a personalised plan. "
@@ -41,6 +47,9 @@ export const Data=[
     {
         id:3,
         img:img3,
+        extra1:img2, 
+        extra2:img1, 
+        extra3:img3, 
         title:"Almora",
         exprence:"nature",
         info:"With salubrious hill-stations, sacred temples, ancient monuments and numerous adventure options, Uttarakhand has a diverse range of offerings for tourists. But to make the choice a little easy, here are a few suggestive itineraries you can refer to for an unforgettable experience. You can contact travel operators and tour guides for a personalised plan. "
@@ -48,6 +57,9 @@ export const Data=[
     {
         id:4,
         img:img4,
+        extra1:img2, 
+        extra2:img1, 
+        extra3:img3, 
         title:"Almora",
         exprence:"Spirituality",
         info:"With salubrious hill-stations, sacred temples, ancient monuments and numerous adventure options, Uttarakhand has a diverse range of offerings for tourists. But to make the choice a little easy, here are a few suggestive itineraries you can refer to for an unforgettable experience. You can contact travel operators and tour guides for a personalised plan. "
@@ -58,6 +70,9 @@ export const Data=[
         id:1,
 
         img:img9,
+        extra1:img12, 
+        extra2:img11, 
+        extra3:img10,
 
         title:"Haridwar",
 
@@ -75,7 +90,9 @@ export const Data=[
         id:2,
 
         img:img10,
-
+        extra1:img12, 
+        extra2:img11, 
+        extra3:img10,
         title:"Haridwar",
 
         exprence:"culture",
@@ -89,6 +106,9 @@ export const Data=[
         id:3,
 
         img:img11,
+        extra1:img12, 
+        extra2:img11, 
+        extra3:img10,
 
         title:"Haridwar",
 
@@ -103,7 +123,9 @@ export const Data=[
         id:4,
 
         img:img12,
-
+        extra1:img12, 
+        extra2:img11, 
+        extra3:img10,
         title:"Haridwar",
 
         exprence:"Spirituality",
@@ -114,6 +136,9 @@ export const Data=[
     {
         id:1,
         img:img5,
+        extra1:img6, 
+        extra2:img7, 
+        extra3:img8,
         title:"Dehradun",
         exprence:"adventure",
         info:"Robber’s Cave: Seek the thrill, Paragliding: Fly in the sky, Assan Barrage: Go Birdwatching, Fun N Food Kingdom: A Splash Of Water, Nag Tibba: Go trekking "
@@ -121,6 +146,9 @@ export const Data=[
     {
         id:2,
         img:img6,
+        extra1:img6, 
+        extra2:img7, 
+        extra3:img8,
         title:"Dehradun",
         exprence:"culture",
         info:"Mindrolling Monastery: Seek serenity, Forest Research Institute: Marvel at the architecture, Buddha Temple: High On Chants, Shiv Mandir: Seek Blessing  "
@@ -128,6 +156,9 @@ export const Data=[
     {
         id:3,
         img:img7,
+        extra1:img6, 
+        extra2:img7, 
+        extra3:img8,
         title:"Dehradun",
         exprence:"nature",
         info:"Sahastradhara: Dip in the medicinal waters, Nature Park: Enjoy a family picnic, Tiger Falls: Embrace Nature, MDDA Park: A Green Space, Assan Barrage: Go Birdwatching "
@@ -135,6 +166,9 @@ export const Data=[
     {
         id:4,
         img:img8,
+        extra1:img6, 
+        extra2:img7, 
+        extra3:img8,
         title:"Dehradun",
         exprence:"Spirituality",
         info:"Tapkeshwar Temple: Seek Spirituality comfort, Tapovan Temple: Meditate, Nightlife: Groove through the night, Shiv Mandir: Seek Blessing, Buddha Temple: High On Chants "
@@ -142,28 +176,40 @@ export const Data=[
     {
         id:5,
         img:img13,
-        title:"Pithoragarh",
+        extra1:img13, 
+        extra2:img14, 
+        extra3:img15,
+        title:"Pithoragrah",
         exprence:"adventure",
         info:"Paragliding for taste of thrill, Trekking in Sin La Trek across lush green fields, Skiing in Garhwal and Kumaon hills, River Rafting in River Sarda "
     },
     {
         id:6,
         img:img14,
-        title:"Pithoragarh",
+        extra1:img13, 
+        extra2:img14, 
+        extra3:img15,
+        title:"Pithoragrah",
         exprence:"culture",
         info:"Basant Panchami where people worship the Goddess Saraswati and wear yellow clothes, Makar Sankranti where the sun enters the zodiac sign of Capricorn from the zodiac sign of Cancer  "
     },
     {
         id:7,
         img:img15,
-        title:"Pithoragarh",
+        extra1:img13, 
+        extra2:img14, 
+        extra3:img15,
+        title:"Pithoragrah",
         exprence:"nature",
         info:"Askot Sanctuary that has been set up primarily with the object of conserving the musk deer, Chandak is a hill that is famous for housing a temple dedicated to the Hindu deity ‘Manu’ "
     },
     {
         id:8,
         img:img16,
-        title:"Pithoragarh",
+        extra1:img13, 
+        extra2:img14, 
+        extra3:img15,
+        title:"Pithoragrah",
         exprence:"Spirituality",
         info:"Arjuneshwar temple which is believed that Arjuna built it, Dhwaj Temple which is known to be the home to snow leopards and Himalayan black bears, Kapileshwar Mahadev which  is purely devoted to lord Shiva which provides a beautiful view of the Soar valley and the Himalayan peaks "
     },

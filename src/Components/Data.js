@@ -1,5 +1,26 @@
-import img1 from "./Images/natures-bounty.jpg"
-import img2 from "./Images/past-temple.jpg"
+import img1 from "./Img/almora1.jpg"
+import img2 from "./Img/almora2.jpg"
+import img3 from "./Img/almora3.jpg"
+import img4 from "./Img/almora4.jpg"
+
+import img5 from "./Img/dehradun1.jpg"
+import img6 from "./Img/dehradun2.jpg"
+import img7 from "./Img/dehradun3.jpg"
+import img8 from "./Img/dehradun4.jpg"
+
+import img9 from "./Img/haridwar1.jpg"
+import img10 from "./Img/haridwar2.jpg"
+import img11 from "./Img/haridwar3.jpg"
+import img12 from "./Img/haridwar4.jpg"
+
+import img13 from "./Img/pithoragarh1.jpg"
+import img14 from "./Img/pithoragarh2.jpg"
+import img15 from "./Img/pithoragarh3.jpg"
+import img16 from "./Img/pithoragarh4.jpg"
+
+
+
+
 
 
 export const Data=[
@@ -12,21 +33,21 @@ export const Data=[
     },
     {
         id:2,
-        img:img1,
+        img:img2,
         title:"Almora",
         exprence:"culture",
         info:"With salubrious hill-stations, sacred temples, ancient monuments and numerous adventure options, Uttarakhand has a diverse range of offerings for tourists. But to make the choice a little easy, here are a few suggestive itineraries you can refer to for an unforgettable experience. You can contact travel operators and tour guides for a personalised plan. "
     },
     {
         id:3,
-        img:img1,
+        img:img3,
         title:"Almora",
         exprence:"nature",
         info:"With salubrious hill-stations, sacred temples, ancient monuments and numerous adventure options, Uttarakhand has a diverse range of offerings for tourists. But to make the choice a little easy, here are a few suggestive itineraries you can refer to for an unforgettable experience. You can contact travel operators and tour guides for a personalised plan. "
     },
     {
         id:4,
-        img:img1,
+        img:img4,
         title:"Almora",
         exprence:"Spirituality",
         info:"With salubrious hill-stations, sacred temples, ancient monuments and numerous adventure options, Uttarakhand has a diverse range of offerings for tourists. But to make the choice a little easy, here are a few suggestive itineraries you can refer to for an unforgettable experience. You can contact travel operators and tour guides for a personalised plan. "
@@ -36,7 +57,7 @@ export const Data=[
         
         id:1,
 
-        img:img1,
+        img:img9,
 
         title:"Haridwar",
 
@@ -53,7 +74,7 @@ export const Data=[
 
         id:2,
 
-        img:img1,
+        img:img10,
 
         title:"Haridwar",
 
@@ -67,7 +88,7 @@ export const Data=[
 
         id:3,
 
-        img:img1,
+        img:img11,
 
         title:"Haridwar",
 
@@ -81,7 +102,7 @@ export const Data=[
 
         id:4,
 
-        img:img1,
+        img:img12,
 
         title:"Haridwar",
 
@@ -92,56 +113,56 @@ export const Data=[
     },
     {
         id:1,
-        img:img1,
+        img:img5,
         title:"Dehradun",
         exprence:"adventure",
         info:"Robber’s Cave: Seek the thrill, Paragliding: Fly in the sky, Assan Barrage: Go Birdwatching, Fun N Food Kingdom: A Splash Of Water, Nag Tibba: Go trekking "
     },
     {
         id:2,
-        img:img1,
+        img:img6,
         title:"Dehradun",
         exprence:"culture",
         info:"Mindrolling Monastery: Seek serenity, Forest Research Institute: Marvel at the architecture, Buddha Temple: High On Chants, Shiv Mandir: Seek Blessing  "
     },
     {
         id:3,
-        img:img1,
+        img:img7,
         title:"Dehradun",
         exprence:"nature",
         info:"Sahastradhara: Dip in the medicinal waters, Nature Park: Enjoy a family picnic, Tiger Falls: Embrace Nature, MDDA Park: A Green Space, Assan Barrage: Go Birdwatching "
     },
     {
         id:4,
-        img:img1,
+        img:img8,
         title:"Dehradun",
         exprence:"Spirituality",
         info:"Tapkeshwar Temple: Seek Spirituality comfort, Tapovan Temple: Meditate, Nightlife: Groove through the night, Shiv Mandir: Seek Blessing, Buddha Temple: High On Chants "
     },
     {
         id:5,
-        img:img2,
+        img:img13,
         title:"Pithoragarh",
         exprence:"adventure",
         info:"Paragliding for taste of thrill, Trekking in Sin La Trek across lush green fields, Skiing in Garhwal and Kumaon hills, River Rafting in River Sarda "
     },
     {
         id:6,
-        img:img2,
+        img:img14,
         title:"Pithoragarh",
         exprence:"culture",
         info:"Basant Panchami where people worship the Goddess Saraswati and wear yellow clothes, Makar Sankranti where the sun enters the zodiac sign of Capricorn from the zodiac sign of Cancer  "
     },
     {
         id:7,
-        img:img2,
+        img:img15,
         title:"Pithoragarh",
         exprence:"nature",
         info:"Askot Sanctuary that has been set up primarily with the object of conserving the musk deer, Chandak is a hill that is famous for housing a temple dedicated to the Hindu deity ‘Manu’ "
     },
     {
         id:8,
-        img:img2,
+        img:img16,
         title:"Pithoragarh",
         exprence:"Spirituality",
         info:"Arjuneshwar temple which is believed that Arjuna built it, Dhwaj Temple which is known to be the home to snow leopards and Himalayan black bears, Kapileshwar Mahadev which  is purely devoted to lord Shiva which provides a beautiful view of the Soar valley and the Himalayan peaks "

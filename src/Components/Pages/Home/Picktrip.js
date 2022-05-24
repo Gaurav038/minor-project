@@ -56,7 +56,7 @@ const Picktrip = () => {
                   <option value="Almora">Almora</option>
                   <option value="HARIDWAR">HARIDWAR</option>
                   <option value="Dehradun">Dehradun</option>
-                  <option value="Pithoragarh">Pithoragarh</option>
+                  <option value="Pithoragrah">Pithoragarh</option>
                   </select>
                </div><br></br>
                <div className="col-lg-4 pt-3 pb-3">

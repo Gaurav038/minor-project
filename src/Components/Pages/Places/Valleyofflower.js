@@ -1,8 +1,4 @@
 import React from 'react'
-import img1 from "../../Images/Banner.jpg";
-import img2 from "../../Images/Banner1.jpg"
-import img3 from "../../Images/Banner3.jpg"
-import img4 from "../../Images/Valleybanner.jpg"
 import { useLocation } from "react-router-dom"
 
 
@@ -23,7 +19,7 @@ const Valleyofflower = () => {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner" style={{height: '85vh'}}>
     <div class="carousel-item active">
       <img src={data[0].extra1} class="d-block w-100" alt="..."/>
     </div>
